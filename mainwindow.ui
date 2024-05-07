@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DrawFul</class>
+ <widget class="QMainWindow" name="DrawFul">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Verdana</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Drawfull</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="minimumSize">
+             <size>
+              <width>119</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>81</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrame {
+border: 2px solid black;
+background: #CCCCCC; 
+border: 1px solid black;
+border-radius: 10px;
+
+}
+
+
+
+
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_5">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QPushButton" name="link">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>120</width>
+                  <height>49</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Segoe Print</family>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ayuda&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string> DrawFull</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/Paint_36304.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_6">
+               <property name="styleSheet">
+                <string notr="true">Qframe {
+background-color: blue;
+border: 2px solid black;
+padding: 10px;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QPushButton" name="cerrar">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>10</y>
+                  <width>120</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Salir&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>  Salir</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/mbrilogout_99583.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="guardar">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>70</y>
+                  <width>120</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Guardar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string> Guardar</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/savedisk_121993.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="abrir">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>120</y>
+                  <width>120</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Abrir&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>  Abrir</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/3643772-archive-archives-document-folder-open_113445.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="borrador">
+                <property name="geometry">
+                 <rect>
+                  <x>-10</x>
+                  <y>360</y>
+                  <width>141</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Borrador&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string> Borrador</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/eraser_icon_173167.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="linea">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>450</y>
+                  <width>41</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dibujar lineas&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/straight-horizontal-line_icon-icons.com_74237.ico</normalon>
+                 </iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="elipse">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>450</y>
+                  <width>41</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dibujar circunferencias&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/perfect-circle_icon-icons.com_53928.ico</normalon>
+                 </iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="rectangulo">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>480</y>
+                  <width>41</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dibujar Rectangulos&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/software-shape-rectangle_98272.ico</normalon>
+                 </iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="triangulo">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>480</y>
+                  <width>41</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dibujar triangulos&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/triangle-shape_icon-icons.com_53860.ico</normalon>
+                 </iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="nuevo">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>170</y>
+                  <width>131</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nuevo&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>  Nuevo</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/blankpapersheet_85748.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="color">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>270</y>
+                  <width>120</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Color&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>  Color</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/color_palette_brush_paint_icon_193857.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="texto">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>410</y>
+                  <width>91</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>Figuras</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pincel">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>320</y>
+                  <width>120</width>
+                  <height>50</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pincel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>  Pincel</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/software-paintbrush_97929.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="tamano">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>210</y>
+                  <width>121</width>
+                  <height>61</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Verdana</family>
+                  <pointsize>9</pointsize>
+                  <italic>false</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tamaño&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border: none;
+background: transparent;
+color: #000000;
+padding: 10px;
+text-align: left;
+} 
+QPushButton:hover{
+background: #DAD8DF
+}</string>
+                </property>
+                <property name="text">
+                 <string>  Tamaño</string>
+                </property>
+                <property name="icon">
+                 <iconset>
+                  <normalon>:/Imagenes/paintbrush-outline_icon-icons.com_73193.ico</normalon>
+                 </iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Imagenes/3643772-archive-archives-document-folder-open_113445.ico</file>
+        <file>Imagenes/color_palette_brush_paint_icon_193857.ico</file>
+        <file>Imagenes/eraser_icon_173167.ico</file>
+        <file>Imagenes/mbrilogout_99583.ico</file>
+        <file>Imagenes/paintbrush-outline_icon-icons.com_73193.ico</file>
+        <file>Imagenes/savedisk_121993.ico</file>
+        <file>Imagenes/perfect-circle_icon-icons.com_53928.ico</file>
+        <file>Imagenes/software-shape-rectangle_98272.ico</file>
+        <file>Imagenes/straight-horizontal-line_icon-icons.com_74237.ico</file>
+        <file>Imagenes/triangle-shape_icon-icons.com_53860.ico</file>
+        <file>Imagenes/Paint_36304.ico</file>
+        <file>Imagenes/blankpapersheet_85748.ico</file>
+        <file>Imagenes/software-paintbrush_97929.ico</file>
+        <file>Imagenes/triangle_icon_126819.ico</file>
+    </qresource>
+</RCC>
